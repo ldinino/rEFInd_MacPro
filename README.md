@@ -7,4 +7,17 @@ Instead of a sample config, I renamed the config file and changed one line, unco
 
 Sometimes Windows just decides it doesn't like you and skips rEFInd. I made a script that sets it as the primary bootmanager again.
 
-TO DO: make a script that automates downloading and installing...
+ 1. Download the release.
+ 2. Extract to somewhere like Desktop.
+ 3. In an admin Command Prompt, run the following:
+	`mountvol S: /S`
+	`S:`
+ 4. Validate you're on the EFI partition:
+	`cd EFI`
+5. Copy the rEFInd files to your EFI partition:
+	`xcopy /E /I "C:\Users\YourUsername\Desktop\refind\refind" S:\EFI\refind`
+6. Set rEFInd as the Bootloader:
+	`bcdedit /set "{bootmgr}" path \EFI\refind\refind_x64.efi`
+7. Restart.
+
+I had Gemini 3 Pro make an installer script for Windows that automates the whole process. I haven't tested it yet, but the code looks fine to me. Not my problem if it breaks something.
