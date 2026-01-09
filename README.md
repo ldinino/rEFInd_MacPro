@@ -1,7 +1,7 @@
 # rEFInd_MacPro
 A copy of rEFInd with a config file that sets VMX to true, enabling virtualization features on 6,1 2013 Mac Pro "Trash Can" models.
 
-I use Windows 11 LTSC IoT Enterprise and Fedora Linux on my Trash Can these days. macOS isn't very good on these machines anymore. The CPU is still excellent and the GPUs are... okay. Only one problem: virtualization doesn't work! No memory integrity security features on Windows, no making VMs, and no Windows Sandbox. That won't do, especially for the models with 24 cores and tons of memory.
+I use Windows 11 LTSC IoT Enterprise and Fedora Linux on my Trash Can these days. macOS isn't very good on these machines anymore. The CPU is still excellent and the GPUs are... okay. Only one problem: virtualization doesn't work! No advanced security features on Windows, no making VMs, and no Windows Sandbox. That won't do, especially for the models with 24 cores and tons of memory.
 
 The solution is using a boot manager called rEFInd. I've found that forum posts and documentation are (respectfully) not the easiest to follow. This is literally just rEFInd downloaded straight from https://sourceforge.net/projects/refind/files/
 
