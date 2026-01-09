@@ -20,4 +20,4 @@ Sometimes Windows just decides it doesn't like you and skips rEFInd. I made a sc
 	`bcdedit /set "{bootmgr}" path \EFI\refind\refind_x64.efi`
 7. Restart.
 
-I had Gemini 3 Pro make an installer script for Windows that automates the whole process. I haven't tested it yet, but the code looks fine to me. Not my problem if it breaks something.
+I had Gemini 3 Pro make an [installer script](https://github.com/ldinino/rEFInd_MacPro/blob/main/refind_install.ps1) for Windows that automates the whole process. I haven't tested it yet, but the code looks fine to me. Not my problem if it breaks something.
