@@ -4,3 +4,7 @@ A copy of rEFInd with a config file that sets VMX to true, enabling virtualizati
 This is literally just rEFInd downloaded straight from https://sourceforge.net/projects/refind/files/
 
 Instead of a sample config, I renamed the config file and changed one line, uncommenting `enable_and_lock_vmx` and setting it to true.
+
+Sometimes Windows just decides it doesn't like you and skips rEFInd. I made a script that sets it as the primary bootmanager again.
+
+TO DO: make a script that automates downloading and installing...
