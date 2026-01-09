@@ -1,7 +1,6 @@
 <#
 .SYNOPSIS
     Automated Installer for rEFInd on 2013 Mac Pro (Trash Can)
-    Source: GitHub Release Assets (User Provided)
 #>
 
 # --- Configuration ---
@@ -113,4 +112,5 @@ Write-Host "------------------------------------------------"
 Write-Host "Installation Complete." -ForegroundColor Green
 Write-Host "Reboot to test."
 Write-Host "------------------------------------------------"
+
 Pause
