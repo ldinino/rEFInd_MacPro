@@ -1,5 +1,5 @@
 # rEFInd_MacPro
-A copy of rEFInd with a config file that sets VMX to true, enabling virtualization features on 6,1 2013 Mac Pro "Trash Can" models.
+A copy of rEFInd with a config file that sets VMX to true, enabling virtualization features on 6,1 Mac Pro (2013) "Trash Can" models.
 
 I use Windows 11 LTSC IoT Enterprise and Fedora Linux on my Trash Can these days. macOS isn't very good on these machines anymore. The CPU is still excellent and the GPUs are... okay. Only one problem: virtualization doesn't work! No advanced security features in Windows, no making VMs, and no Windows Sandbox. That won't do, especially for the models with 24 cores and tons of memory.
 
